@@ -1,9 +1,0 @@
-com\login\service\impl\LoginserviceImpl.class
-com\login\pojo\UserExample.class
-com\login\pojo\UserExample$GeneratedCriteria.class
-com\login\controller\loginAction.class
-com\login\pojo\UserExample$Criterion.class
-com\login\pojo\UserExample$Criteria.class
-com\login\mybatis\mapper\UserMapper.class
-com\login\pojo\User.class
-com\login\service\LoginService.class
