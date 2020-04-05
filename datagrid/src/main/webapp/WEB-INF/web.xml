@@ -97,15 +97,33 @@
         <servlet-name>default</servlet-name>
         <url-pattern>*.ttf</url-pattern>
     </servlet-mapping>
-    
-  
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.woff</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.woff2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.map</url-pattern>
+    </servlet-mapping>
+          <servlet-mapping>
+        	<servlet-name>default</servlet-name>
+        	<url-pattern>*.map</url-pattern>  
+   		 </servlet-mapping>  
+          <servlet-mapping>
+        	<servlet-name>default</servlet-name>
+        	<url-pattern>.contentWindow.map</url-pattern>  
+   		 </servlet-mapping>  
   
   <servlet-mapping>
     <servlet-name>dispatcherServlet</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
-    <welcome-file>login.html</welcome-file>
+    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
   
   <!--  六、druid数据源监控servlet

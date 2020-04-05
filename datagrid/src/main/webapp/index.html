@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>数据表格后台框架</title>
 	<link rel="stylesheet" href="css/layui.css">
+	<script src="js/iframeResizer.min.js" charset="utf-8"></script>
 </head>
 
 <body class="layui-layout-body">
@@ -75,10 +76,11 @@
 			</div>
 		</div>
 
-		<div class="layui-body">
+		<div class="layui-body" >
 			<!-- 内容主体区域 -->
 			<div style="padding: 15px;">
-				<iframe src="basedatagrid.html" style="border: 0px;width: 100%;" scrolling="auto" id="mainiframe" name="mainiframe"></iframe>
+				<iframe src="basedatagrid.html" style="border: 0px;width: 100%;"  scrolling="no" id="mainiframe" name="mainiframe"></iframe>
+				
 			</div>
 		</div>
 
@@ -89,11 +91,24 @@
 	</div>
 	<script src="js/layui.all.js"></script>
 	<script>
+	
+	
+	iFrameResize({
+		log : true, // Enable console logging
+		enablePublicMethods : true, // Enable methods within iframe hosted page
+		});
+	
+	
+	
 		//JavaScript代码区域
 		layui.use('element', function() {
 			var element = layui.element;
 
 		});
+		
+		
+	
+
 	</script>
 </body>
 

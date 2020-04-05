@@ -19,6 +19,8 @@ public interface UvipMapper {
     List<Uvip> selectByExample(UvipExample example);
 
     Uvip selectByPrimaryKey(Integer id);
+    
+    List<Uvip> findAll();
 
     int updateByExampleSelective(@Param("record") Uvip record, @Param("example") UvipExample example);
 
@@ -27,4 +29,6 @@ public interface UvipMapper {
     int updateByPrimaryKeySelective(Uvip record);
 
     int updateByPrimaryKey(Uvip record);
+
+	List<Uvip> findByPage(Integer page, Integer limit);
 }
