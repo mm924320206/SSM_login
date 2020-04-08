@@ -4,6 +4,7 @@
     <groupId>com.Template</groupId>
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../parent/pom.xml</relativePath>
   </parent>
   <artifactId>login2</artifactId>
   <packaging>war</packaging>

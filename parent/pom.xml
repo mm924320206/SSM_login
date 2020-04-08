@@ -307,5 +307,6 @@
 	
 	<modules>
 		<module>../login2</module>
+		<module>../datagrid</module>
 	</modules>
 </project>
